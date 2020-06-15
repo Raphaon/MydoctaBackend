@@ -37,6 +37,17 @@ class PatientController extends Controller
 
     }
 
+    public function addPatien(Request $request)
+    {
+        $patient = new Patient();
+        $patient->save();
+    }
+
+    public function update()
+    {
+        return true;
+    }
+
 
 }
 

@@ -11,5 +11,9 @@ class FicheMedicaleController extends Controller
     {
         return FicheMedicale::get();
     }
+    public function showFicheMedicale($code)
+    {
+        return FicheMedicale::where("code", $code)->get();
+    }
 
 }
