@@ -41,3 +41,12 @@ Route::get('/patient/{matricule}/DossierMedicale', [
 ]);
 
 
+Route::get('/apiAuth', [
+    'as'   => 'apiAuth',
+    'uses' => 'ApiAuthController@apiAuth'
+]);
+
+Route::get('/{apiKey}', [
+    'as'   => 'apiKey',
+    'uses' => 'ApiAuthController@checkKey'
+]);
