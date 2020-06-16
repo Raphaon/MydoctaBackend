@@ -8,18 +8,23 @@ class AuthController extends Controller
 {
     public function Login(Request $request)
     {
-        $user_name = request("user_name");
+        return view('User/login');
+    }
+
+    public function checkLog()
+    {
+        $user_name = request("username");
         $password = request('password');
         $checkLog = false;
         if(!empty($user_name) and !empty($password))
         {
-            $checkLog = User::where('username', '=', $user_name)
+            $checkLog = User::where('email', '=', $user_name)
                         ->where('password', '=', $password)
-                        ->get();
-            if($checkLog != null)
-                $checkLog =true;
+                        ->first();         
         }
-
-        return $checkLog;
+        return  response()->json([
+            'UserInfo' => $checkLog
+        ], 200);
+        return false;
     }
 }
