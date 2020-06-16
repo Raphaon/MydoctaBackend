@@ -10,4 +10,5 @@ class PharmacieController extends Controller
     {
         return Pharmacie::get();
     }
+    
 }

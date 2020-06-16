@@ -6,5 +6,8 @@ use Illuminate\Http\Request;
 
 class MedicamentController extends Controller
 {
-    //
+    public function addProduct()
+    {
+        
+    }
 }

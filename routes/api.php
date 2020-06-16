@@ -41,3 +41,7 @@ Route::get('/patient/{matricule}/DossierMedicale', [
 ]);
 
 
+
+
+
+
