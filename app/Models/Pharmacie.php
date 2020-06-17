@@ -10,4 +10,5 @@ class Pharmacie extends Model
     {
         return Produits::get();
     }
+    
 }

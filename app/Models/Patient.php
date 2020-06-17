@@ -19,6 +19,6 @@ class Patient extends Model
     }
     public function getNotification()
     {
-
+        return 0;
     }
 }
