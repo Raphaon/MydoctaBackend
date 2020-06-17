@@ -41,12 +41,6 @@ Route::get('/patient/{matricule}/DossierMedicale', [
 ]);
 
 
-<<<<<<< HEAD
-
-
-
-
-=======
 Route::get('/apiAuth', [
     'as'   => 'apiAuth',
     'uses' => 'ApiAuthController@apiAuth'
@@ -56,7 +50,6 @@ Route::get('/{apiKey}', [
     'as'   => 'apiKey',
     'uses' => 'ApiAuthController@checkKey'
 ]);
-<<<<<<< HEAD
 Route::get('/newApiUser', [
     'as'   => 'newApiApp',
     'uses' => 'ApiAuthController@new'
@@ -87,6 +80,3 @@ Route::post('/signUpSave', [
     'as'   => 'newUser',
     'uses' => 'AuthController@addUser'
 ]);
-=======
->>>>>>> 18a67dc151347756c46741151b56ac71da9237a9
->>>>>>> e1b42951a025f497224ccab991554cc950a3d109
