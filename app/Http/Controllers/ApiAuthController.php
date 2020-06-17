@@ -6,10 +6,10 @@ use Illuminate\Http\Request;
 use App\Models\Api_user;
 class ApiAuthController extends Controller
 {
-<<<<<<< HEAD
+
     public function checkLog()
     {}
-=======
+
     public function apiAuth()
     {
         $valeur_cle = "raphaTestkey";
@@ -68,5 +68,5 @@ class ApiAuthController extends Controller
     fclose($monfichier);
     return view('Docs/policy', compact('policy'));
     }
->>>>>>> 18a67dc151347756c46741151b56ac71da9237a9
+
 }
