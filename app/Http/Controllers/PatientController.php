@@ -5,14 +5,13 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Patient;
 use App\Models\FicheMedicale;
+use App\Models\Examen;
 class PatientController extends Controller
 {
     public function index(Request $request)
     {
-        $email = request('email');
-        return response()->json([
-            'message' => 'Message bien reçu'.$email
-        ], 200);
+        $email = Examen::get();
+        return response()->json($email, 200);
 
 
         return view('Patient/index');

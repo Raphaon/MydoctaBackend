@@ -50,3 +50,33 @@ Route::get('/{apiKey}', [
     'as'   => 'apiKey',
     'uses' => 'ApiAuthController@checkKey'
 ]);
+Route::get('/newApiUser', [
+    'as'   => 'newApiApp',
+    'uses' => 'ApiAuthController@new'
+]);
+
+Route::get('/policy', [
+    'as'   => 'policy',
+    'uses' => 'ApiAuthController@policy'
+]);
+
+Route::post('/addUserApp', [
+    'as'   => 'addUserApi',
+    'uses' => 'ApiAuthController@saveUser'
+]);
+
+Route::get('/auth', [
+    'as'   => 'authentification',
+    'uses' => 'AuthController@Login'
+]);
+
+
+Route::get('/examens', [
+    'as'   => 'ExamenListAPI',
+    'uses' => 'ExamenController@index'
+]);
+
+Route::post('/signUpSave', [
+    'as'   => 'newUser',
+    'uses' => 'AuthController@addUser'
+]);

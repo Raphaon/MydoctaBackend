@@ -25,6 +25,27 @@ Route::get('/auth', [
 ]);
 
 
+Route::get('/signUp', [
+    'as'   => 'signUp',
+    'uses' => 'AuthController@signUp'
+]);
+
+Route::post('/signUpSave', [
+    'as'   => 'newUser',
+    'uses' => 'AuthController@addUser'
+]);
+
+
+
+Route::get('/Examen', [
+    'as'   => 'ExamenList',
+    'uses' => 'ExamenController@index'
+]);
+
+
+
+
+
 Route::post('/authCheck', [
     'as'   => 'checkLog',
     'uses' => 'AuthController@checkLog'
