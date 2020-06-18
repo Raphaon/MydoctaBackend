@@ -31,7 +31,7 @@ class AuthController extends Controller
 
     public function signUp()
     {
-        return view('./User/signUp');
+        return view('./User/SignUp');
         
     }
 
