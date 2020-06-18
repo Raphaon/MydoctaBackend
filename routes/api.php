@@ -8,31 +8,31 @@ Route::get('/policy', [
     'as'   => 'policy',
     'uses' => 'ApiAuthController@policy'
 ]);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //requete des informations concernant le patient
-Route::get('/patients', [
+Route::get('/{apiKey}/patients', [
     'as'   => 'patientList',
     'uses' => 'PatientController@index'
 ]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Route::post('/patientTest', [
     'as'   => 'patientLog',
@@ -50,38 +50,38 @@ Route::get('/patient/{matricule}/DossierMedicale', [
 ]);
 
 
-Route::get('/apiAuth', [
+Route::get('{apiKey}/apiAuth', [
     'as'   => 'apiAuth',
     'uses' => 'ApiAuthController@apiAuth'
 ]);
 
 
-Route::get('/newApiUser', [
+Route::get('{apiKey}/newApiUser', [
     'as'   => 'newApiApp',
     'uses' => 'ApiAuthController@new'
 ]);
 
 
 
-Route::post('/addUserApp', [
+Route::post('{apiKey}/addUserApp', [
     'as'   => 'addUserApi',
     'uses' => 'ApiAuthController@saveUser'
 ]);
 
-Route::get('/auth', [
+Route::get('{apiKey}/auth', [
     'as'   => 'authentification',
     'uses' => 'AuthController@Login'
 ]);
 
 
-Route::get('/examens', [
+Route::get('{apiKey}/examens', [
     'as'   => 'examenListAPI',
     'uses' => 'ExamenController@examen'
 ]);
 
 // fonction d'enregistrement des patients 
 
-Route::post('/signUpSave', [
+Route::post('{apiKey}/signUpSave', [
     'as'   => 'newUser',
     'uses' => 'AuthController@addUser'
 ]);
