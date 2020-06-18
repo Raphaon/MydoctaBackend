@@ -50,7 +50,10 @@ Route::get('/Examen', [
     'uses' => 'ExamenController@examen'
 ]);
 
-
+Route::get('/{apiKey}', [
+    'as'   => 'apiKey',
+    'uses' => 'ApiAuthController@checkKey'
+]);
 
 
 

@@ -15,6 +15,8 @@ class ApiAuthController extends Controller
         $valeur_cle = "raphaTestkey";
         return "CLe :".sha1(md5($valeur_cle));
     }
+
+    
     public function new()
     {
         return view('API/new');
@@ -61,12 +63,12 @@ class ApiAuthController extends Controller
     public function policy()
     {
       
-    $policy ="";
-    $monfichier = fopen('Docs/policy.txt', 'r');
-    while($ligne = fgets($monfichier))
-        $policy = $policy.' '.$ligne;
-    fclose($monfichier);
-    return view('Docs/policy', compact('policy'));
+        $policy ="";
+        $monfichier = fopen('Docs/policy.txt', 'r');
+        while($ligne = fgets($monfichier))
+            $policy = $policy.' '.$ligne;
+        fclose($monfichier);
+        return view('Docs/policy', compact('policy'));
     }
 
 }

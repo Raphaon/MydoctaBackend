@@ -49,7 +49,7 @@
                         </div>
                         <div class="form-group">
                             <label>Phone number</label>
-                            <input  type="tel" class="form-control" placeholder="app Name" name="phoneNumber">
+                            <input  type="tel" class="form-control" placeholder="Phone number" name="phoneNumber">
                         </div>
                         <div class="form-group">
                             <label>Password</label>
