@@ -26,7 +26,6 @@ class AuthController extends Controller
         return  response()->json([
             'UserInfo' => $checkLog
         ], 200);
-        return false;
     }
 
 
@@ -58,11 +57,15 @@ class AuthController extends Controller
             {
                 if($user->save())
                 {
-                    return redirect('home');
+                    return  response()->json([
+                        'message' => "Reussi"
+                    ], 200);
                 }
             }
         }
-        return false;
+        return  response()->json([
+            'message' => 'Echec !'
+        ], 200);;
 
 
     }

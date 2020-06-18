@@ -42,7 +42,7 @@ class ApiAuthController extends Controller
                 return "Voici la clé qui à été généré pour votre Api : ". $apikey;
             }
         }
-        return false;
+        return "Une erreur c'est produit lors de votre enregistrement Veuillez reesayer";
             
         
     }

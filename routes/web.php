@@ -10,6 +10,10 @@ Route::get('/', [
     'uses' => 'HomeController@index'
 ]);
 
+Route::get('/AppList', [
+    'as'   => 'ListApi',
+    'uses' => 'HomeController@getAppList'
+]);
 
 
 Route::get('/newApiUser', [
