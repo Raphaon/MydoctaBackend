@@ -58,9 +58,7 @@
                         </div>
                         <button type="submit" class="btn btn-primary btn-flat m-b-30 m-t-30">Creer</button>
                         
-                        <div class="register-link m-t-15 text-center">
-                            <p>Already have account ? <a href="#"> Sign in</a></p>
-                        </div>
+                        
                     </form>
                 </div>
             </div>
