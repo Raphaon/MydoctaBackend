@@ -72,9 +72,11 @@ Route::get('/auth', [
 
 
 Route::get('/examens', [
-    'as'   => 'ExamenListAPI',
-    'uses' => 'ExamenController@index'
+    'as'   => 'examenListAPI',
+    'uses' => 'ExamenController@examen'
 ]);
+
+// fonction d'enregistrement des patients 
 
 Route::post('/signUpSave', [
     'as'   => 'newUser',

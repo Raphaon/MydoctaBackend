@@ -4,6 +4,14 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 
+
+Route::get('/', [
+    'as'   => 'Home',
+    'uses' => 'HomeController@index'
+]);
+
+
+
 Route::get('/newApiUser', [
     'as'   => 'newApiApp',
     'uses' => 'ApiAuthController@new'
@@ -39,7 +47,7 @@ Route::post('/signUpSave', [
 
 Route::get('/Examen', [
     'as'   => 'ExamenList',
-    'uses' => 'ExamenController@index'
+    'uses' => 'ExamenController@examen'
 ]);
 
 
@@ -50,5 +58,7 @@ Route::post('/authCheck', [
     'as'   => 'checkLog',
     'uses' => 'AuthController@checkLog'
 ]);
+
+
 
 

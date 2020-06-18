@@ -28,7 +28,7 @@ class ApiAuthController extends Controller
         $readTerm = request('readcontrat');
         $apikey = sha1(md5($username.$appName.$email));
 
-        $user_api = new api_user();
+        $user_api = new Api_user();
         $user_api->apiUsername = $username;
         $user_api->email_adress = $email;
         $user_api->appName = $appName;
@@ -47,7 +47,7 @@ class ApiAuthController extends Controller
     public function checkKey(Request $request)
     {
         $apikey = request('apiKey');
-        $user_api = api_user::where('apiKey', $apikey)->first();
+        $user_api = Api_user::where('apiKey', $apikey)->first();
         $keyApp =sha1(md5('MyDoctaFrondEnd'));
         if($user_api != null)
             return true;

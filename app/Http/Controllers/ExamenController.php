@@ -6,9 +6,9 @@ use Illuminate\Http\Request;
 use App\Models\Examen;
 class ExamenController extends Controller
 {
-    public function index(Request  $request)
+    public function examen()
     {
-        return $examens = Examen::get();
+        return Examen::get();
         return response()->json($examens, 200);
     }
 }
