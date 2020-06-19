@@ -66,7 +66,7 @@ class AuthController extends Controller
                      here is the link to activate you account \n".$url." Just click on the link to activate your account.";
                     $headers = "From: confirmationmailmydocta@gmail.com\r\n";
                     $headers .= "Disposition-Notification-To:confirmationmailmydocta@gmail.com"; // c'est ici que l'on ajoute la directive
-                   mail($user->email, $subject, $message,$headers);
+                     dd(mail($user->email, $subject, $message, $headers));
                     return  response()->json([
                         'message' => "Un mail d'activation à été envoyé dans votre compte  ".$user->email
                     ], 200);
@@ -89,13 +89,13 @@ class AuthController extends Controller
 
     public function passwordRecovery()
     {
-        $destinataire = "clovis.dassi@gmail.com"; // adresse mail du destinataire
+        $destinataire = "raphaondobo@gmail.com"; // adresse mail du destinataire
         $sujet = "Confirmation de votre Mail"; // sujet du mail
         $message = "Activation de votre compte cliquez sur le lien suivant mydocta.cm/url/fsdfsdfsd/, svp si le lien ne s'active pas veuillez le copier et coller dans la barre d'adresse d'un navigateur "; // message qui dira que le destinataire a bien lu votre mail
         // maintenant, on crée l'en-tête du mail
         $header = "From: confirmationmailmydocta@gmail.com\r\n";
         $header .= "Disposition-Notification-To:confirmationmailmydocta@gmail.com"; // c'est ici que l'on ajoute la directive
-        dd(mail ($destinataire, $sujet, $message, $header)); // on envois le mai
+        dd(mail ($destinataire, $sujet, $message, $header)); // on envois le mail
         //return view('User/passwordRecovery');
     }
 
@@ -105,17 +105,19 @@ class AuthController extends Controller
         $user = User::where('isActivate',"false")
                     ->where("id", $id)
                     ->first();
-
-                     DB::table('users')
-                    ->where('isActivate',"false")
-                    ->where("id", $id)
-                    ->update(['isActivate'=> "true"]);
+        if($user != null)
+        {
 
                     $subject = "Confirmation Activation";
                     $message = "Congratulation your Mail have been activate ";
                     $headers = "From: confirmationmailmydocta@gmail.com\r\n";
                     $headers .= "Disposition-Notification-To:confirmationmailmydocta@gmail.com"; // c'est ici que l'on ajoute la directive
-                    mail($user->email, $subject, $message,$headers);
+                    mail($user->email, $subject, $message, $headers);
+        }else
+        {
+            return 'Empty';
+        }
+
                     return redirect()->to(route('authentification'));
     }
 
