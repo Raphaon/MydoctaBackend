@@ -66,9 +66,9 @@ class AuthController extends Controller
                      here is the link to activate you account \n".$url." Just click on the link to activate your account.";
                     $headers = "From: confirmationmailmydocta@gmail.com\r\n";
                     $headers .= "Disposition-Notification-To:confirmationmailmydocta@gmail.com"; // c'est ici que l'on ajoute la directive
-                     dd(mail($user->email, $subject, $message, $headers));
+                     mail($user->email, $subject, $message, $headers);
                     return  response()->json([
-                        'message' => "Un mail d'activation à été envoyé dans votre compte  ".$user->email
+                        'message' => "Un mail d'activation à été envoyé dans votre compte  ".$user->email ."Si vous ne voyez pas svp verifier aussi vos spams"
                     ], 200);
                 }
             }
