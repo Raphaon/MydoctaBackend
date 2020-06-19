@@ -57,6 +57,15 @@ class AuthController extends Controller
             {
                 if($user->save())
                 {
+                    $subject = "Confirmation adrress link ";
+                    $message = "Hello thank you for your confidence here is the link to activate you account ";
+                    $headers = array(
+                        'From' => 'noreply@mydocta.cm',
+                        'Reply-To' => 'noreply@mydocta.cm',
+                        'X-Mailer' => 'PHP/' . phpversion()
+                    );
+
+                   mail($user->email, $subject, $message,$headers);
                     return  response()->json([
                         'message' => "Reussi"
                     ], 200);

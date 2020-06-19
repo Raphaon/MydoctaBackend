@@ -1,0 +1,87 @@
+20/06/18 16:03:56 ** --- MESSAGE BEGIN ---
+20/06/18 16:03:56 ** To: raphaelgloire@yahoo.fr
+20/06/18 16:03:56 ** Subject: Confirmation adrress link
+20/06/18 16:03:56 ** From: raphaondobo@gmail.com
+20/06/18 16:03:56 ** Reply-To: raphaondobo@gmail.com
+20/06/18 16:03:56 ** X-Mailer: PHP/7.2.27
+20/06/18 16:03:56 ** 
+20/06/18 16:03:56 ** Hello thank you for your confidence here is the link to activate you account 
+20/06/18 16:03:56 ** --- MESSAGE END ---
+20/06/18 16:04:00 ** Connecting to smtp.gmail.com:587
+20/06/18 16:04:09 ** Connected.
+20/06/18 16:04:10 << 220 smtp.gmail.com ESMTP u16sm3213493qkm.107 - gsmtp<EOL>
+20/06/18 16:04:10 >> EHLO DESKTOP-UPHINOO.gmail.com<EOL>
+20/06/18 16:04:12 << 250-smtp.gmail.com at your service, [154.72.167.18]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20/06/18 16:04:12 ** Authenticating as raphaondobo@gmail.com
+20/06/18 16:04:12 >> STARTTLS<EOL>
+20/06/18 16:04:13 << 220 2.0.0 Ready to start TLS<EOL>
+20/06/18 16:04:18 >> EHLO DESKTOP-UPHINOO.gmail.com<EOL>
+20/06/18 16:04:19 << 250-smtp.gmail.com at your service, [154.72.167.18]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20/06/18 16:04:19 >> AUTH LOGIN<EOL>
+20/06/18 16:04:22 << 334 VXNlcm5hbWU6<EOL>
+20/06/18 16:04:22 >> cmFwaGFvbmRvYm9AZ21haWwuY29t<EOL>
+20/06/18 16:04:25 << 334 UGFzc3dvcmQ6<EOL>
+20/06/18 16:04:25 >> SmVzdXNpczExa2luZw==<EOL>
+20/06/18 16:04:30 << 535-5.7.8 Username and Password not accepted. Learn more at<EOL>535 5.7.8  https://support.google.com/mail/?p=BadCredentials u16sm3213493qkm.107 - gsmtp<EOL>
+20/06/18 16:04:31 ** Disconnecting from smtp.gmail.com:587
+20/06/18 16:04:31 ** Disconnected.
+20/06/18 16:04:31 ** Disconnected.
+20/06/18 16:04:32 ** Username and Password not accepted. Learn more at<EOL> https://support.google.com/mail/?p=BadCredentials u16sm3213493qkm.107 - gsmtp<EOL>
+20/06/19 08:30:44 ** --- MESSAGE BEGIN ---
+20/06/19 08:30:44 ** To: raphaelgloire@yahoo.fr
+20/06/19 08:30:44 ** Subject: Confirmation adrress link
+20/06/19 08:30:44 ** From: raphaondobo@gmail.com
+20/06/19 08:30:44 ** Reply-To: raphaondobo@gmail.com
+20/06/19 08:30:44 ** X-Mailer: PHP/7.2.27
+20/06/19 08:30:44 ** 
+20/06/19 08:30:44 ** Hello thank you for your confidence here is the link to activate you account 
+20/06/19 08:30:44 ** --- MESSAGE END ---
+20/06/19 08:30:45 ** Connecting to smtp.gmail.com:587
+20/06/19 08:30:46 ** Connected.
+20/06/19 08:30:46 << 220 smtp.gmail.com ESMTP b53sm5839450qtc.65 - gsmtp<EOL>
+20/06/19 08:30:46 >> EHLO DESKTOP-UPHINOO.gmail.com<EOL>
+20/06/19 08:30:47 << 250-smtp.gmail.com at your service, [154.72.167.115]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20/06/19 08:30:47 ** Authenticating as raphaondobo@gmail.com
+20/06/19 08:30:47 >> STARTTLS<EOL>
+20/06/19 08:30:48 << 220 2.0.0 Ready to start TLS<EOL>
+20/06/19 08:30:49 >> EHLO DESKTOP-UPHINOO.gmail.com<EOL>
+20/06/19 08:30:50 << 250-smtp.gmail.com at your service, [154.72.167.115]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20/06/19 08:30:50 >> AUTH LOGIN<EOL>
+20/06/19 08:30:51 << 334 VXNlcm5hbWU6<EOL>
+20/06/19 08:30:51 >> cmFwaGFvbmRvYm9AZ21haWwuY29t<EOL>
+20/06/19 08:30:51 << 334 UGFzc3dvcmQ6<EOL>
+20/06/19 08:30:51 >> SmVzdXNpczExa2luZw==<EOL>
+20/06/19 08:30:52 << 535-5.7.8 Username and Password not accepted. Learn more at<EOL>535 5.7.8  https://support.google.com/mail/?p=BadCredentials b53sm5839450qtc.65 - gsmtp<EOL>
+20/06/19 08:30:52 ** Disconnecting from smtp.gmail.com:587
+20/06/19 08:30:52 ** Disconnected.
+20/06/19 08:30:52 ** Disconnected.
+20/06/19 08:30:52 ** Username and Password not accepted. Learn more at<EOL> https://support.google.com/mail/?p=BadCredentials b53sm5839450qtc.65 - gsmtp<EOL>
+20/06/19 08:50:04 ** --- MESSAGE BEGIN ---
+20/06/19 08:50:04 ** To: raphabrainprinter@gmail.com
+20/06/19 08:50:04 ** Subject: Confirmation adrress link
+20/06/19 08:50:04 ** From: raphaondobo@gmail.com
+20/06/19 08:50:04 ** Reply-To: raphaondobo@gmail.com
+20/06/19 08:50:04 ** X-Mailer: PHP/7.2.27
+20/06/19 08:50:04 ** 
+20/06/19 08:50:04 ** Hello thank you for your confidence here is the link to activate you account 
+20/06/19 08:50:04 ** --- MESSAGE END ---
+20/06/19 08:50:05 ** Connecting to smtp.gmail.com:587
+20/06/19 08:50:07 ** Connected.
+20/06/19 08:50:07 << 220 smtp.gmail.com ESMTP v2sm5536401qtq.8 - gsmtp<EOL>
+20/06/19 08:50:07 >> EHLO DESKTOP-UPHINOO.gmail.com<EOL>
+20/06/19 08:50:07 << 250-smtp.gmail.com at your service, [154.72.167.115]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20/06/19 08:50:07 ** Authenticating as raphaondobo@gmail.com
+20/06/19 08:50:07 >> STARTTLS<EOL>
+20/06/19 08:50:07 << 220 2.0.0 Ready to start TLS<EOL>
+20/06/19 08:50:08 >> EHLO DESKTOP-UPHINOO.gmail.com<EOL>
+20/06/19 08:50:08 << 250-smtp.gmail.com at your service, [154.72.167.115]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20/06/19 08:50:08 >> AUTH LOGIN<EOL>
+20/06/19 08:50:08 << 334 VXNlcm5hbWU6<EOL>
+20/06/19 08:50:08 >> cmFwaGFvbmRvYm9AZ21haWwuY29t<EOL>
+20/06/19 08:50:08 << 334 UGFzc3dvcmQ6<EOL>
+20/06/19 08:50:08 >> SmVzdXNpczExa2luZw==<EOL>
+20/06/19 08:50:09 << 535-5.7.8 Username and Password not accepted. Learn more at<EOL>535 5.7.8  https://support.google.com/mail/?p=BadCredentials v2sm5536401qtq.8 - gsmtp<EOL>
+20/06/19 08:50:09 ** Disconnecting from smtp.gmail.com:587
+20/06/19 08:50:09 ** Disconnected.
+20/06/19 08:50:09 ** Disconnected.
+20/06/19 08:50:09 ** Username and Password not accepted. Learn more at<EOL> https://support.google.com/mail/?p=BadCredentials v2sm5536401qtq.8 - gsmtp<EOL>

@@ -38,7 +38,8 @@
                 </div>
                 <div class="login-form">
                 <form method="POST" action="{{ route('newUser') }}">
-                    {{ csrf_field() }}
+                    
+                    @csrf
                         <div class="form-group">
                             <label>Full Name</label>
                             <input required type="text" class="form-control" placeholder="Full Name" name='fullName'>
