@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\User;
+use DB;
 class AuthController extends Controller
 {
     public function Login(Request $request)
@@ -15,13 +16,14 @@ class AuthController extends Controller
     {
         $user_name = request("username");
         $password = sha1(md5(request('password')));
-        
+
         $checkLog = false;
         if(!empty($user_name) and !empty($password))
         {
             $checkLog = User::where('email', '=', $user_name)
                         ->where('password', '=', $password)
-                        ->first();         
+                        ->where('isActivate',"true")
+                        ->first();
         }
         return  response()->json([
             'UserInfo' => $checkLog
@@ -32,7 +34,7 @@ class AuthController extends Controller
     public function signUp()
     {
         return view('./User/SignUp');
-        
+
     }
 
     public function addUser(Request $request)
@@ -44,7 +46,7 @@ class AuthController extends Controller
         $password = request('password');
         $cpassword =request("cpassword");
         $readTerm = request('readcontrat');
-      
+
 
         $user = new User();
         $user->name = $fullname;
@@ -57,17 +59,16 @@ class AuthController extends Controller
             {
                 if($user->save())
                 {
-                    $subject = "Confirmation adrress link ";
-                    $message = "Hello thank you for your confidence here is the link to activate you account ";
-                    $headers = array(
-                        'From' => 'noreply@mydocta.cm',
-                        'Reply-To' => 'noreply@mydocta.cm',
-                        'X-Mailer' => 'PHP/' . phpversion()
-                    );
 
+                    $subject = "Activation account";
+                    $url = route('activationMail', ['id' => $user->id]);
+                    $message = "Hello thank you for your confidence. \n
+                     here is the link to activate you account \n".$url." Just click on the link to activate your account.";
+                    $headers = "From: confirmationmailmydocta@gmail.com\r\n";
+                    $headers .= "Disposition-Notification-To:confirmationmailmydocta@gmail.com"; // c'est ici que l'on ajoute la directive
                    mail($user->email, $subject, $message,$headers);
                     return  response()->json([
-                        'message' => "Reussi"
+                        'message' => "Un mail d'activation à été envoyé dans votre compte  ".$user->email
                     ], 200);
                 }
             }
@@ -78,4 +79,47 @@ class AuthController extends Controller
 
 
     }
+
+
+    public function sendMail()
+    {
+        return "Je suis la !";
+    }
+
+
+    public function passwordRecovery()
+    {
+        $destinataire = "clovis.dassi@gmail.com"; // adresse mail du destinataire
+        $sujet = "Confirmation de votre Mail"; // sujet du mail
+        $message = "Activation de votre compte cliquez sur le lien suivant mydocta.cm/url/fsdfsdfsd/, svp si le lien ne s'active pas veuillez le copier et coller dans la barre d'adresse d'un navigateur "; // message qui dira que le destinataire a bien lu votre mail
+        // maintenant, on crée l'en-tête du mail
+        $header = "From: confirmationmailmydocta@gmail.com\r\n";
+        $header .= "Disposition-Notification-To:confirmationmailmydocta@gmail.com"; // c'est ici que l'on ajoute la directive
+        dd(mail ($destinataire, $sujet, $message, $header)); // on envois le mai
+        //return view('User/passwordRecovery');
+    }
+
+    public function activationMail(Request $request)
+    {
+        $id = request('id');
+        $user = User::where('isActivate',"false")
+                    ->where("id", $id)
+                    ->first();
+
+                     DB::table('users')
+                    ->where('isActivate',"false")
+                    ->where("id", $id)
+                    ->update(['isActivate'=> "true"]);
+
+                    $subject = "Confirmation Activation";
+                    $message = "Congratulation your Mail have been activate ";
+                    $headers = "From: confirmationmailmydocta@gmail.com\r\n";
+                    $headers .= "Disposition-Notification-To:confirmationmailmydocta@gmail.com"; // c'est ici que l'on ajoute la directive
+                    mail($user->email, $subject, $message,$headers);
+                    return redirect()->to(route('authentification'));
+    }
+
 }
+
+
+

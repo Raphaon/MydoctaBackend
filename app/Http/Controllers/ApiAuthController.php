@@ -16,7 +16,7 @@ class ApiAuthController extends Controller
         return "CLe :".sha1(md5($valeur_cle));
     }
 
-    
+
     public function new()
     {
         return view('API/new');
@@ -43,8 +43,8 @@ class ApiAuthController extends Controller
             }
         }
         return "Une erreur c'est produit lors de votre enregistrement Veuillez reesayer";
-            
-        
+
+
     }
     public function checkKey(Request $request)
     {
@@ -58,13 +58,13 @@ class ApiAuthController extends Controller
 
 
 
-    
+
 
     public function policy()
     {
-      
+
         $policy ="";
-        $monfichier = fopen('Docs/policy.txt', 'r');
+        $monfichier = fopen('Docs/Policy.txt', 'r');
         while($ligne = fgets($monfichier))
             $policy = $policy.' '.$ligne;
         fclose($monfichier);
