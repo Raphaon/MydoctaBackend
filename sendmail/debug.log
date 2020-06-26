@@ -1,0 +1,144 @@
+20/06/19 16:05:21 ** --- MESSAGE BEGIN ---
+20/06/19 16:05:21 ** To: raphaondobo@gmail.com
+20/06/19 16:05:21 ** Subject: Activation account
+20/06/19 16:05:21 ** From: confirmationmailmydocta@gmail.com
+20/06/19 16:05:21 ** Disposition-Notification-To:confirmationmailmydocta@gmail.com
+20/06/19 16:05:21 ** 
+20/06/19 16:05:21 ** Hello thank you for your confidence. 
+20/06/19 16:05:21 ** 
+20/06/19 16:05:21 **                      here is the link to activate you account 
+20/06/19 16:05:21 ** http://localhost:8000/activation/20 Just click on the link to activate your account.
+20/06/19 16:05:21 ** --- MESSAGE END ---
+20/06/19 16:05:22 ** Connecting to smtp.gmail.com:587
+20/06/19 16:05:26 ** Connected.
+20/06/19 16:05:26 << 220 smtp.gmail.com ESMTP c6sm6349254qkg.93 - gsmtp<EOL>
+20/06/19 16:05:26 >> EHLO DESKTOP-UPHINOO.gmail.com<EOL>
+20/06/19 16:05:28 << 250-smtp.gmail.com at your service, [154.72.167.115]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20/06/19 16:05:28 ** Authenticating as confirmationmailmydocta@gmail.com
+20/06/19 16:05:28 >> STARTTLS<EOL>
+20/06/19 16:05:28 << 220 2.0.0 Ready to start TLS<EOL>
+20/06/19 16:05:29 >> EHLO DESKTOP-UPHINOO.gmail.com<EOL>
+20/06/19 16:05:29 << 250-smtp.gmail.com at your service, [154.72.167.115]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20/06/19 16:05:29 >> AUTH LOGIN<EOL>
+20/06/19 16:05:30 << 334 VXNlcm5hbWU6<EOL>
+20/06/19 16:05:30 >> Y29uZmlybWF0aW9ubWFpbG15ZG9jdGFAZ21haWwuY29t<EOL>
+20/06/19 16:05:31 << 334 UGFzc3dvcmQ6<EOL>
+20/06/19 16:05:31 >> Z3FkbGZnZHFteml4eXZrbg==<EOL>
+20/06/19 16:05:31 << 235 2.7.0 Accepted<EOL>
+20/06/19 16:05:31 >> MAIL FROM: <confirmationmailmydocta@gmail.com><EOL>
+20/06/19 16:05:32 << 250 2.1.0 OK c6sm6349254qkg.93 - gsmtp<EOL>
+20/06/19 16:05:32 >> RCPT TO: <raphaondobo@gmail.com><EOL>
+20/06/19 16:05:32 << 250 2.1.5 OK c6sm6349254qkg.93 - gsmtp<EOL>
+20/06/19 16:05:32 >> DATA<EOL>
+20/06/19 16:05:34 << 354  Go ahead c6sm6349254qkg.93 - gsmtp<EOL>
+20/06/19 16:05:34 >> Date: Fri, 19 Jun 2020 16:05:34 +0100<EOL>
+20/06/19 16:05:34 >> To: raphaondobo@gmail.com<EOL>
+20/06/19 16:05:34 >> Subject: Activation account<EOL>
+20/06/19 16:05:34 >> From: confirmationmailmydocta@gmail.com<EOL>
+20/06/19 16:05:34 >> Disposition-Notification-To:confirmationmailmydocta@gmail.com<EOL>
+20/06/19 16:05:34 >> <EOL>
+20/06/19 16:05:34 >> Hello thank you for your confidence. <EOL>
+20/06/19 16:05:34 >> <EOL>
+20/06/19 16:05:34 >>                      here is the link to activate you account <EOL>
+20/06/19 16:05:34 >> http://localhost:8000/activation/20 Just click on the link to activate your account.<EOL>
+20/06/19 16:05:34 >> .<EOL>
+20/06/19 16:05:36 << 250 2.0.0 OK  1592579169 c6sm6349254qkg.93 - gsmtp<EOL>
+20/06/19 16:05:36 >> QUIT<EOL>
+20/06/19 16:05:37 << 221 2.0.0 closing connection c6sm6349254qkg.93 - gsmtp<EOL>
+20/06/19 16:05:37 ** Disconnected.
+20/06/19 16:05:37 ** Disconnected.
+20/06/19 16:05:37 ** Disconnected.
+20/06/19 16:07:47 ** --- MESSAGE BEGIN ---
+20/06/19 16:07:47 ** To: raphaondobo@gmail.com
+20/06/19 16:07:47 ** Subject: Confirmation Activation
+20/06/19 16:07:47 ** From: confirmationmailmydocta@gmail.com
+20/06/19 16:07:47 ** Disposition-Notification-To:confirmationmailmydocta@gmail.com
+20/06/19 16:07:47 ** 
+20/06/19 16:07:47 ** Congratulation your Mail have been activate 
+20/06/19 16:07:47 ** --- MESSAGE END ---
+20/06/19 16:07:48 ** Connecting to smtp.gmail.com:587
+20/06/19 16:07:49 ** Connected.
+20/06/19 16:07:49 << 220 smtp.gmail.com ESMTP j16sm113352qtp.92 - gsmtp<EOL>
+20/06/19 16:07:49 >> EHLO DESKTOP-UPHINOO.gmail.com<EOL>
+20/06/19 16:07:49 << 250-smtp.gmail.com at your service, [154.72.167.115]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20/06/19 16:07:49 ** Authenticating as confirmationmailmydocta@gmail.com
+20/06/19 16:07:49 >> STARTTLS<EOL>
+20/06/19 16:07:50 << 220 2.0.0 Ready to start TLS<EOL>
+20/06/19 16:07:51 >> EHLO DESKTOP-UPHINOO.gmail.com<EOL>
+20/06/19 16:07:51 << 250-smtp.gmail.com at your service, [154.72.167.115]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20/06/19 16:07:51 >> AUTH LOGIN<EOL>
+20/06/19 16:07:52 << 334 VXNlcm5hbWU6<EOL>
+20/06/19 16:07:52 >> Y29uZmlybWF0aW9ubWFpbG15ZG9jdGFAZ21haWwuY29t<EOL>
+20/06/19 16:07:52 << 334 UGFzc3dvcmQ6<EOL>
+20/06/19 16:07:52 >> Z3FkbGZnZHFteml4eXZrbg==<EOL>
+20/06/19 16:07:53 << 235 2.7.0 Accepted<EOL>
+20/06/19 16:07:53 >> MAIL FROM: <confirmationmailmydocta@gmail.com><EOL>
+20/06/19 16:07:54 << 250 2.1.0 OK j16sm113352qtp.92 - gsmtp<EOL>
+20/06/19 16:07:54 >> RCPT TO: <raphaondobo@gmail.com><EOL>
+20/06/19 16:07:55 << 250 2.1.5 OK j16sm113352qtp.92 - gsmtp<EOL>
+20/06/19 16:07:55 >> DATA<EOL>
+20/06/19 16:07:56 << 354  Go ahead j16sm113352qtp.92 - gsmtp<EOL>
+20/06/19 16:07:56 >> Date: Fri, 19 Jun 2020 16:07:56 +0100<EOL>
+20/06/19 16:07:56 >> To: raphaondobo@gmail.com<EOL>
+20/06/19 16:07:56 >> Subject: Confirmation Activation<EOL>
+20/06/19 16:07:56 >> From: confirmationmailmydocta@gmail.com<EOL>
+20/06/19 16:07:56 >> Disposition-Notification-To:confirmationmailmydocta@gmail.com<EOL>
+20/06/19 16:07:56 >> <EOL>
+20/06/19 16:07:56 >> Congratulation your Mail have been activate <EOL>
+20/06/19 16:07:56 >> .<EOL>
+20/06/19 16:07:59 << 250 2.0.0 OK  1592579311 j16sm113352qtp.92 - gsmtp<EOL>
+20/06/19 16:07:59 >> QUIT<EOL>
+20/06/19 16:08:00 << 221 2.0.0 closing connection j16sm113352qtp.92 - gsmtp<EOL>
+20/06/19 16:08:00 ** Disconnected.
+20/06/19 16:08:00 ** Disconnected.
+20/06/19 16:08:00 ** Disconnected.
+20/06/19 16:11:55 ** --- MESSAGE BEGIN ---
+20/06/19 16:11:55 ** To: raphaondobo@gmail.com
+20/06/19 16:11:55 ** Subject: Activation account
+20/06/19 16:11:55 ** From: confirmationmailmydocta@gmail.com
+20/06/19 16:11:55 ** Disposition-Notification-To:confirmationmailmydocta@gmail.com
+20/06/19 16:11:55 ** 
+20/06/19 16:11:55 ** Hello thank you for your confidence. 
+20/06/19 16:11:55 ** 
+20/06/19 16:11:55 **                      here is the link to activate you account 
+20/06/19 16:11:55 ** http://localhost:8000/activation/21 Just click on the link to activate your account.
+20/06/19 16:11:55 ** --- MESSAGE END ---
+20/06/19 16:11:56 ** Connecting to smtp.gmail.com:587
+20/06/19 16:11:58 ** Connected.
+20/06/19 16:12:02 << 220 smtp.gmail.com ESMTP h4sm5804149qtd.43 - gsmtp<EOL>
+20/06/19 16:12:02 >> EHLO DESKTOP-UPHINOO.gmail.com<EOL>
+20/06/19 16:12:02 << 250-smtp.gmail.com at your service, [154.72.167.115]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20/06/19 16:12:02 ** Authenticating as confirmationmailmydocta@gmail.com
+20/06/19 16:12:02 >> STARTTLS<EOL>
+20/06/19 16:12:02 << 220 2.0.0 Ready to start TLS<EOL>
+20/06/19 16:12:03 >> EHLO DESKTOP-UPHINOO.gmail.com<EOL>
+20/06/19 16:12:03 << 250-smtp.gmail.com at your service, [154.72.167.115]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20/06/19 16:12:03 >> AUTH LOGIN<EOL>
+20/06/19 16:12:04 << 334 VXNlcm5hbWU6<EOL>
+20/06/19 16:12:04 >> Y29uZmlybWF0aW9ubWFpbG15ZG9jdGFAZ21haWwuY29t<EOL>
+20/06/19 16:12:04 << 334 UGFzc3dvcmQ6<EOL>
+20/06/19 16:12:04 >> Z3FkbGZnZHFteml4eXZrbg==<EOL>
+20/06/19 16:12:04 << 235 2.7.0 Accepted<EOL>
+20/06/19 16:12:04 >> MAIL FROM: <confirmationmailmydocta@gmail.com><EOL>
+20/06/19 16:12:04 << 250 2.1.0 OK h4sm5804149qtd.43 - gsmtp<EOL>
+20/06/19 16:12:04 >> RCPT TO: <raphaondobo@gmail.com><EOL>
+20/06/19 16:12:05 << 250 2.1.5 OK h4sm5804149qtd.43 - gsmtp<EOL>
+20/06/19 16:12:05 >> DATA<EOL>
+20/06/19 16:12:05 << 354  Go ahead h4sm5804149qtd.43 - gsmtp<EOL>
+20/06/19 16:12:05 >> Date: Fri, 19 Jun 2020 16:12:05 +0100<EOL>
+20/06/19 16:12:05 >> To: raphaondobo@gmail.com<EOL>
+20/06/19 16:12:05 >> Subject: Activation account<EOL>
+20/06/19 16:12:05 >> From: confirmationmailmydocta@gmail.com<EOL>
+20/06/19 16:12:05 >> Disposition-Notification-To:confirmationmailmydocta@gmail.com<EOL>
+20/06/19 16:12:05 >> <EOL>
+20/06/19 16:12:05 >> Hello thank you for your confidence. <EOL>
+20/06/19 16:12:05 >> <EOL>
+20/06/19 16:12:05 >>                      here is the link to activate you account <EOL>
+20/06/19 16:12:05 >> http://localhost:8000/activation/21 Just click on the link to activate your account.<EOL>
+20/06/19 16:12:05 >> .<EOL>
+20/06/19 16:12:06 << 250 2.0.0 OK  1592579560 h4sm5804149qtd.43 - gsmtp<EOL>
+20/06/19 16:12:06 >> QUIT<EOL>
+20/06/19 16:12:06 << 221 2.0.0 closing connection h4sm5804149qtd.43 - gsmtp<EOL>
+20/06/19 16:12:06 ** Disconnecting from smtp.gmail.com:587
+20/06/19 16:12:06 ** Disconnected.
+20/06/19 16:12:06 ** Disconnected.

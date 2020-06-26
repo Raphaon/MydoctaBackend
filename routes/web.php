@@ -16,6 +16,8 @@ Route::get('/AppList', [
 ]);
 
 
+
+
 Route::get('/newApiUser', [
     'as'   => 'newApiApp',
     'uses' => 'ApiAuthController@new'
@@ -26,10 +28,15 @@ Route::get('/policy', [
     'uses' => 'ApiAuthController@policy'
 ]);
 
+
+
 Route::post('/addUserApp', [
     'as'   => 'addUserApi',
     'uses' => 'ApiAuthController@saveUser'
 ]);
+
+
+
 
 Route::get('/auth', [
     'as'   => 'authentification',
@@ -54,10 +61,7 @@ Route::get('/Examen', [
     'uses' => 'ExamenController@examen'
 ]);
 
-Route::get('/{apiKey}', [
-    'as'   => 'apiKey',
-    'uses' => 'ApiAuthController@checkKey'
-]);
+
 
 
 
@@ -67,5 +71,15 @@ Route::post('/authCheck', [
 ]);
 
 
+Route::get('/forgoten', [
+    'as'   => 'passwordRecovery',
+    'uses' => 'AuthController@passwordRecovery'
+]);
 
+
+
+Route::get('/activation/{id}', [
+    'as'   => 'activationMail',
+    'uses' => 'AuthController@activationMail'
+]);
 

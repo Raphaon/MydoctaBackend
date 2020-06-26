@@ -20,7 +20,7 @@
         <!-- /.content -->
         <div class="clearfix"></div>
         <!-- Footer -->
-        @include('./Layouts/Partials/__foot')
+        @include('./Layouts/Partials/__Foot')
 
     <!-- /#right-panel -->
     @include('/Layouts/Partials/__scriptBottom')

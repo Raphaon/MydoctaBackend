@@ -8,7 +8,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        return view("Home/index");
+        return view("Home/Index");
     }
 
     public function getAppList()
