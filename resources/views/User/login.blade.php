@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Ela Admin - HTML5 Admin Template</title>
+    <title>My Docta App</title>
     <meta name="description" content="Ela Admin - HTML5 Admin Template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -57,7 +57,7 @@
 
                         </div>
                         <button type="submit" class="btn btn-success btn-flat m-b-30 m-t-30">Sign in</button>
-                        
+
                         <div class="register-link m-t-15 text-center">
                             <p>Don't have account ? <a href="{{ route('signUp')}}"> Sign Up Here</a></p>
                         </div>

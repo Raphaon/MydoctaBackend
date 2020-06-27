@@ -75,7 +75,7 @@ class AuthController extends Controller
         }
         return  response()->json([
             'message' => 'Echec !'
-        ], 200);;
+        ], 200);
 
 
     }
@@ -99,26 +99,44 @@ class AuthController extends Controller
         //return view('User/passwordRecovery');
     }
 
+//return list of users
+
+public function getUser()
+{
+    $users = User::get();
+    return  response()->json($users, 200);
+}
+
+
+
+
+
+
     public function activationMail(Request $request)
     {
         $id = request('id');
         $user = User::where('isActivate',"false")
-                    ->where("id", $id)
-                    ->first();
+                ->where("id", $id)
+                ->first();
+
         if($user != null)
         {
+                     User::where('isActivate',"false")
+                    ->where("id", $id)
+                    ->update(["isActivate"=>"true"]);
 
                     $subject = "Confirmation Activation";
                     $message = "Congratulation your Mail have been activate ";
                     $headers = "From: confirmationmailmydocta@gmail.com\r\n";
                     $headers .= "Disposition-Notification-To:confirmationmailmydocta@gmail.com"; // c'est ici que l'on ajoute la directive
                     mail($user->email, $subject, $message, $headers);
+                    return  "Votre mail à été activé avec success";
         }else
         {
             return 'Empty';
         }
 
-                    return redirect()->to(route('authentification'));
+                  //  return redirect()->to(route('authentification'));
     }
 
 }

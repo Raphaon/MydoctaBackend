@@ -21,6 +21,11 @@ Route::get('{apiKey}/patients', [
 ]);
 
 
+Route::get('{apiKey}/users',[
+    'as'   => 'Users',
+    'uses' => 'AuthController@getUser'
+]);
+
 
 
 

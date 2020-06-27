@@ -142,3 +142,86 @@
 20/06/19 16:12:06 ** Disconnecting from smtp.gmail.com:587
 20/06/19 16:12:06 ** Disconnected.
 20/06/19 16:12:06 ** Disconnected.
+20/06/27 06:42:12 ** --- MESSAGE BEGIN ---
+20/06/27 06:42:12 ** To: raphaondobo@gmail.com
+20/06/27 06:42:12 ** Subject: Activation account
+20/06/27 06:42:12 ** From: confirmationmailmydocta@gmail.com
+20/06/27 06:42:12 ** Disposition-Notification-To:confirmationmailmydocta@gmail.com
+20/06/27 06:42:12 ** 
+20/06/27 06:42:12 ** Hello thank you for your confidence. 
+20/06/27 06:42:12 ** 
+20/06/27 06:42:12 **                      here is the link to activate you account 
+20/06/27 06:42:12 ** http://localhost:8000/activation/21 Just click on the link to activate your account.
+20/06/27 06:42:12 ** --- MESSAGE END ---
+20/06/27 06:42:15 ** Connecting to smtp.gmail.com:587
+20/06/27 06:42:16 ** Connected.
+20/06/27 06:42:16 << 220 smtp.gmail.com ESMTP g22sm4006818vso.8 - gsmtp<EOL>
+20/06/27 06:42:16 >> EHLO Rapha-office.gmail.com<EOL>
+20/06/27 06:42:16 << 250-smtp.gmail.com at your service, [154.72.150.83]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20/06/27 06:42:16 ** Authenticating as confirmationmailmydocta@gmail.com
+20/06/27 06:42:16 >> STARTTLS<EOL>
+20/06/27 06:42:16 << 220 2.0.0 Ready to start TLS<EOL>
+20/06/27 06:42:16 >> QUIT<EOL>
+20/06/27 06:42:17 <<  5  1^öêJí.>şÊ6±n–š?ÍA&ÎDOWNGRD   /  	ÿ   #  	ó 	ï 	ì ˜0‚”0‚|  ˜qò½°)úY    FsÁ0	*†H†÷ 0B10	UUS10U
+Google Trust Services10U
+GTS CA 1O10200610091724Z200902091724Z0h10	UUS10U
+California10UMountain View10U
+
+Google LLC10Usmtp.gmail.com0‚"0	*†H†÷ ‚ 0‚
+‚ ¬>æ¤Jö99Ï¸örpÜ‡ƒüY5)»©»%ñXPã(ù‰ö{8d¹–ö-¢‡o‘aùŞä­Zá	ÏcOµ×ioütOƒOF“Ó¡İ§yôŸñmxOÊØÈw¤¹ühŒAwµÕØïÿ€>©mè^¼]­§sïL°	´~ü5«ãE‡Ï‹¯¾8ÛµZüg«à –­,RÉP}ïzJ‘ä_ëW–9ÔmKÈÕD@–’wÔÙ,Ö‰ŸSï °0±ø&´ìmËPİ“Fm'üx-p˜Ü„¨8›vÉm	)ÎÚÚñğ®û"A® ;ëñŸ‚×…–	7–¿#cg3 £‚]0‚Y0Uÿ 0U%0
++0Uÿ0 0U Oõ®Í`³¥2H}üÔH­%Äd™Ó0U#0€˜ÑønëÏ›ì`Ÿ ë}	ı+0h+\0Z0++0†http://ocsp.pki.goog/gts1o1core0++0†http://pki.goog/gsr2/GTS1O1.crt0U0‚smtp.gmail.com0!U 00g0
++Öy03U,0*0( & $†"http://crl.pki.goog/GTS1O1core.crl0‚
++Öyöó ñ v ·\å}hÿñ°Æ#ÇºæW|W”·jî¼a:iÓ¢  r¼†   G0E! ÙN¿¿	JüM°çß½IÿN4[qá£‰Áa Ÿ»¢‰ODùÔ IújaîZ÷Gå#×OÃpÂ}R1ßà]öæ8ÉÎÔÊW w ÆR ìHÎ³ü«	’Ä:‡A3	è e¢bR@£6*Åe  r¼j   H0F! ¿±¼"ÚÑ3‡ˆo×ŠKSVİ¤åæÉ×¥3&„|! ¹M§†nĞ«ãÌI Ê« +ûø®ÌàI;­UFÏõÑ†0	*†H†÷ ‚ @uOä<?%m<&º2«G£K±¶£·ÛUTÀYÏ»Ìgáù3c !Ü¬Ocm-\¶%³g[+Rê®†óÔáÇcæ*ø^Àá[†ÎL16Uf|
+5ó¡#„ˆª¾Öyƒx•ÊBGá#/ºñ¢l8u‘İBğ}øókCåg‹Ïëìšàã·mßgJ·fA 
+20/06/27 06:42:17 ** Disconnected.
+20/06/27 06:42:17 ** Disconnecting from smtp.gmail.com:587
+20/06/27 06:42:17 ** Disconnected.
+20/06/27 06:42:17 ** Disconnected.
+20/06/27 06:42:17 ** Connection Closed Gracefully.
+20/06/27 06:46:04 ** --- MESSAGE BEGIN ---
+20/06/27 06:46:04 ** To: raphaondobo@gmail.com
+20/06/27 06:46:04 ** Subject: Confirmation Activation
+20/06/27 06:46:04 ** From: confirmationmailmydocta@gmail.com
+20/06/27 06:46:04 ** Disposition-Notification-To:confirmationmailmydocta@gmail.com
+20/06/27 06:46:04 ** 
+20/06/27 06:46:04 ** Congratulation your Mail have been activate 
+20/06/27 06:46:04 ** --- MESSAGE END ---
+20/06/27 06:46:05 ** Connecting to smtp.gmail.com:587
+20/06/27 06:46:16 ** Disconnected.
+20/06/27 06:46:16 ** Disconnected.
+20/06/27 06:46:16 ** Disconnected.
+20/06/27 06:46:16 ** Disconnected.
+20/06/27 06:46:16 ** Connect timed out.
+20/06/27 06:56:37 ** --- MESSAGE BEGIN ---
+20/06/27 06:56:37 ** To: raphaondobo@gmail.com
+20/06/27 06:56:37 ** Subject: Confirmation Activation
+20/06/27 06:56:37 ** From: confirmationmailmydocta@gmail.com
+20/06/27 06:56:37 ** Disposition-Notification-To:confirmationmailmydocta@gmail.com
+20/06/27 06:56:37 ** 
+20/06/27 06:56:37 ** Congratulation your Mail have been activate 
+20/06/27 06:56:37 ** --- MESSAGE END ---
+20/06/27 06:56:38 ** Connecting to smtp.gmail.com:587
+20/06/27 06:56:39 ** Connected.
+20/06/27 06:56:39 << 220 smtp.gmail.com ESMTP u199sm4525669vku.42 - gsmtp<EOL>
+20/06/27 06:56:39 >> EHLO Rapha-office.gmail.com<EOL>
+20/06/27 06:56:39 << 250-smtp.gmail.com at your service, [154.72.150.83]<EOL>250-SIZE 35882577<EOL>250-8BITMIME<EOL>250-STARTTLS<EOL>250-ENHANCEDSTATUSCODES<EOL>250-PIPELINING<EOL>250-CHUNKING<EOL>250 SMTPUTF8<EOL>
+20/06/27 06:56:39 ** Authenticating as confirmationmailmydocta@gmail.com
+20/06/27 06:56:39 >> STARTTLS<EOL>
+20/06/27 06:56:40 << 220 2.0.0 Ready to start TLS<EOL>
+20/06/27 06:56:40 >> QUIT<EOL>
+20/06/27 06:56:40 <<  5  1^öí©GHRîg)ĞÉìF¢>ö"¦DOWNGRD   /  	ÿ   #  	ó 	ï 	ì ˜0‚”0‚|  ˜qò½°)úY    FsÁ0	*†H†÷ 0B10	UUS10U
+Google Trust Services10U
+GTS CA 1O10200610091724Z200902091724Z0h10	UUS10U
+California10UMountain View10U
+
+Google LLC10Usmtp.gmail.com0‚"0	*†H†÷ ‚ 0‚
+‚ ¬>æ¤Jö99Ï¸örpÜ‡ƒüY5)»©»%ñXPã(ù‰ö{8d¹–ö-¢‡o‘aùŞä­Zá	ÏcOµ×ioütOƒOF“Ó¡İ§yôŸñmxOÊØÈw¤¹ühŒAwµÕØïÿ€>©mè^¼]­§sïL°	´~ü5«ãE‡Ï‹¯¾8ÛµZüg«à –­,RÉP}ïzJ‘ä_ëW–9ÔmKÈÕD@–’wÔÙ,Ö‰ŸSï °0±ø&´ìmËPİ“Fm'üx-p˜Ü„¨8›vÉm	)ÎÚÚñğ®û"A® ;ëñŸ‚×…–	7–¿#cg3 £‚]0‚Y0Uÿ 0U%0
++0Uÿ0 0U Oõ®Í`³¥2H}üÔH­%Äd™Ó0U#0€˜ÑønëÏ›ì`Ÿ ë}	ı+0h+\0Z0++0†http://ocsp.pki.goog/gts1o1core0++0†http://pki.goog/gsr2/GTS1O1.crt0U0‚smtp.gmail.com0!U 00g0
++Öy03U,0*0( & $†"http://crl.pki.goog/GTS1O1core.crl0‚
++Öyöó ñ v ·\å}hÿñ°Æ#ÇºæW|W”·jî¼a:iÓ¢  r¼†   G0E! ÙN¿¿	JüM°çß½IÿN4[qá£‰Áa Ÿ»¢‰ODùÔ IújaîZ÷Gå#×OÃpÂ}R1ßà]öæ8ÉÎÔÊW w ÆR ìHÎ³ü«	’Ä:‡A3	è e¢bR@£6*Åe  r¼j   H0F! ¿±¼"ÚÑ3‡ˆo×ŠKSVİ¤åæÉ×¥3&„|! ¹M§†nĞ«ãÌI Ê« +ûø®ÌàI;­UFÏõÑ†0	*†H†÷ ‚ @uOä<?%m<&º2«G£K±¶£·ÛUTÀYÏ»Ìgáù3c !Ü¬Ocm-\¶%³g[+Rê®†óÔáÇcæ*ø^Àá[†ÎL16Uf|
+5ó¡#„ˆª¾Öyƒx•ÊBGá#/ºñ¢l8u‘İBğ}øókCåg‹Ïëìšàã·mßgJ·fA 
+20/06/27 06:56:40 ** Disconnected.
+20/06/27 06:56:40 ** Disconnecting from smtp.gmail.com:587
+20/06/27 06:56:40 ** Disconnected.
+20/06/27 06:56:40 ** Disconnected.
+20/06/27 06:56:40 ** Connection Closed Gracefully.

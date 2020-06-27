@@ -16,6 +16,13 @@ Route::get('/AppList', [
 ]);
 
 
+Route::get('users',[
+    'as'   => 'Users',
+    'uses' => 'AuthController@getUser'
+]);
+
+
+
 
 
 Route::get('/newApiUser', [
