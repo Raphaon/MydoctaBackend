@@ -1,79 +1,87 @@
-date/time         : 2020-06-27, 06:46:16, 165ms
+date/time         : 2020-06-27, 08:29:53, 102ms
 computer name     : RAPHA-OFFICE
 user name         : Rapha
 registered owner  : Rapha
 operating system  : Windows NT New x64 build 9200
 system language   : English
-system up time    : 2 days 13 hours
-program up time   : 11 seconds
+system up time    : 2 days 15 hours
+program up time   : 3 seconds
 processors        : 4x Intel(R) Core(TM) i5 CPU M 520 @ 2.40GHz
-physical memory   : 484/5935 MB (free/total)
-free disk space   : (C:) 6,66 GB (E:) 11,89 GB
+physical memory   : 1216/5935 MB (free/total)
+free disk space   : (C:) 6,61 GB (E:) 11,87 GB
 display mode      : 1366x768, 32 bit
-process id        : $1d00
-allocated memory  : 19,11 MB
+process id        : $2bcc
+allocated memory  : 19,20 MB
 executable        : sendmail.exe
 exec. date/time   : 2020-06-26 15:47
 compiled with     : Delphi 2006/07
 madExcept version : 3.0l
-callstack crc     : $524b9ad3, $06bcfa0d, $06bcfa0d
+callstack crc     : $297aecaf, $896e8f9a, $896e8f9a
 exception number  : 1
-exception class   : EIdConnectTimeout
-exception message : Connect timed out.
+exception class   : EIdConnClosedGracefully
+exception message : Connection Closed Gracefully.
 
-main thread ($175c):
-0041fa42 +000e sendmail.exe IdException                    112   +1 EIdException.Toss
-0044092e +014e sendmail.exe IdIOHandlerStack               279  +38 DoConnectTimeout
-00440b4c +01d8 sendmail.exe IdIOHandlerStack               346  +55 TIdIOHandlerStack.ConnectClient
-0046554d +0031 sendmail.exe IdSSLOpenSSL                  2086   +8 TIdSSLIOHandlerSocketOpenSSL.ConnectClient
-00444a9f +0063 sendmail.exe IdIOHandlerSocket              335  +13 TIdIOHandlerSocket.Open
-00465637 +0007 sendmail.exe IdSSLOpenSSL                  2122   +1 TIdSSLIOHandlerSocketOpenSSL.Open
-0044157d +0235 sendmail.exe IdTCPClient                    318  +53 TIdTCPClientCustom.Connect
-00445cc8 +00a4 sendmail.exe IdExplicitTLSClientServerBase  257  +23 TIdExplicitTLSClient.Connect
-0045ab7b +0017 sendmail.exe IdSMTP                         373   +2 TIdSMTP.Connect
-004b5f14 +1060 sendmail.exe sendmail                       808 +326 initialization
-775d6a12 +0022 KERNEL32.DLL                                         BaseThreadInitThunk
+main thread ($1b80):
+0043e503 +002f sendmail.exe IdIOHandler      1929  +23 TIdIOHandler.RaiseConnClosedGracefully
+00440d55 +0051 sendmail.exe IdIOHandlerStack  396  +17 TIdIOHandlerStack.CheckForDisconnect
+0043eee7 +002b sendmail.exe IdIOHandler      2384   +2 TIdIOHandler.WriteDirect
+0043ebc6 +0032 sendmail.exe IdIOHandler      2264   +4 TIdIOHandler.Write
+0043cd64 +0070 sendmail.exe IdIOHandler       962   +6 TIdIOHandler.Write
+0043df7c +0040 sendmail.exe IdIOHandler      1646   +2 TIdIOHandler.WriteLn
+0043ff76 +004a sendmail.exe IdTCPConnection   584   +3 TIdTCPConnection.SendCmd
+0044020e +0056 sendmail.exe IdTCPConnection   723   +4 TIdTCPConnection.SendCmd
+0045ac17 +0017 sendmail.exe IdSMTP            394   +2 TIdSMTP.DisconnectNotifyPeer
+0043fe12 +002a sendmail.exe IdTCPConnection   519   +5 TIdTCPConnection.Disconnect
+0045aea0 +0018 sendmail.exe IdSMTP            509   +2 TIdSMTP.Disconnect
+00440598 +0004 sendmail.exe IdTCPConnection   857   +0 TIdTCPConnection.Disconnect
+00459ff5 +00a9 sendmail.exe IdSMTPBase        407  +24 TIdSMTPBase.StartTLS
+0045a8bd +0039 sendmail.exe IdSMTP            312  +11 TIdSMTP.Authenticate
+004b5f81 +10cd sendmail.exe sendmail          822 +340 initialization
+775d6a12 +0022 KERNEL32.DLL                            BaseThreadInitThunk
 
-thread $28a0:
+thread $2520:
 75772b7d +4d KERNELBASE.dll  SleepEx
 7577104a +0a KERNELBASE.dll  Sleep
 775d6a12 +22 KERNEL32.DLL    BaseThreadInitThunk
 
-thread $2bb8:
+thread $2488:
 75772b7d +4d KERNELBASE.dll  SleepEx
 7577104a +0a KERNELBASE.dll  Sleep
 775d6a12 +22 KERNEL32.DLL    BaseThreadInitThunk
 
 stack dump:
-0018fcbc  47 fa 41 00 de fa ed 0e - 01 00 00 00 07 00 00 00  G.A.............
-0018fccc  d0 fc 18 00 47 fa 41 00 - c0 50 16 02 34 b0 43 00  ....G.A..P..4.C.
-0018fcdc  88 b0 17 02 54 fd 18 00 - 20 fd 18 00 ec fc 18 00  ....T...........
-0018fcec  7d 00 00 00 00 00 00 00 - 33 09 44 00 04 fd 18 00  }.......3.D.....
-0018fcfc  c8 4b 40 00 20 fd 18 00 - 2c fd 18 00 c8 4b 40 00  .K@.....,....K@.
-0018fd0c  20 fd 18 00 4b 02 00 00 - 00 00 00 00 00 00 00 00  ....K...........
-0018fd1c  a0 ce 11 02 58 fd 18 00 - 51 0b 44 00 58 fd 18 00  ....X...Q.D.X...
-0018fd2c  60 fd 18 00 c8 4b 40 00 - 58 fd 18 00 14 3f 41 00  `....K@.X....?A.
-0018fd3c  50 0e 0f 02 50 0e 0f 02 - 10 6a 15 02 00 00 00 00  P...P....j......
-0018fd4c  00 00 00 00 00 00 00 00 - 50 0e 0f 02 74 fd 18 00  ........P...t...
-0018fd5c  52 55 46 00 88 fd 18 00 - c8 4b 40 00 74 fd 18 00  RUF......K@.t...
-0018fd6c  14 3f 41 01 50 0e 0f 02 - bc fd 18 00 a5 4a 44 00  .?A.P........JD.
-0018fd7c  50 0e 0f 02 3c 56 46 00 - 83 15 44 00 94 fd 18 00  P...<VF...D.....
-0018fd8c  5f 4d 40 00 bc fd 18 00 - e8 fd 18 00 c8 4b 40 00  _M@..........K@.
-0018fd9c  bc fd 18 00 14 3f 41 00 - 50 0e 0f 02 f0 0c 0f 02  .....?A.P.......
-0018fdac  12 57 46 00 50 0e 0f 02 - 00 00 00 00 f0 0c 0f 02  .WF.P...........
-0018fdbc  e0 fd 18 00 cd 5c 44 00 - 00 00 00 00 ff 00 00 00  .....\D.........
-0018fdcc  80 ab 45 00 14 3f 41 00 - 00 00 00 00 ff 00 00 00  ..E..?A.........
-0018fddc  f0 0c 0f 02 80 ff 18 00 - 1a 5f 4b 00 f4 fd 18 00  ........._K.....
-0018fdec  c8 4b 40 00 80 ff 18 00 - 00 fe 18 00 c8 4b 40 00  .K@..........K@.
+0018ee90  08 e5 43 00 de fa ed 0e - 01 00 00 00 07 00 00 00  ..C.............
+0018eea0  a4 ee 18 00 08 e5 43 00 - 90 4f fc 01 01 ce fc 01  ......C..O......
+0018eeb0  b0 f4 f5 01 94 34 46 00 - d0 ee 18 00 c0 ee 18 00  .....4F.........
+0018eec0  e8 ee 18 00 c8 4b 40 00 - d0 ee 18 00 00 00 00 00  .....K@.........
+0018eed0  20 ef 18 00 5a 0d 44 00 - 01 00 00 00 b0 f4 f5 01  ....Z.D.........
+0018eee0  38 ce fc 01 ea ee 43 00 - 44 ef 18 00 c8 4b 40 00  8.....C.D....K@.
+0018eef0  20 ef 18 00 e0 aa fd 01 - 38 ce fc 01 b0 f4 f5 01  ........8.......
+0018ef00  28 ef 18 00 01 00 00 00 - e1 38 42 00 44 ef 18 00  (........8B.D...
+0018ef10  24 39 42 00 2c 39 42 00 - 06 00 00 00 00 00 00 00  $9B.,9B.........
+0018ef20  38 ef 18 00 cb eb 43 00 - 00 00 00 00 c0 aa fd 01  8.....C.........
+0018ef30  94 34 46 00 ff ff ff ff - 64 ef 18 00 6a cd 43 00  .4F.....d...j.C.
+0018ef40  00 00 00 00 70 ef 18 00 - c8 4b 40 00 64 ef 18 00  ....p....K@.d...
+0018ef50  28 ac 45 00 b0 f4 f5 01 - 94 34 46 00 00 00 00 00  (.E......4F.....
+0018ef60  68 ce fc 01 90 ef 18 00 - 82 df 43 00 00 00 00 00  h.........C.....
+0018ef70  9c ef 18 00 c8 4b 40 00 - 90 ef 18 00 94 34 46 00  .....K@......4F.
+0018ef80  00 00 00 00 50 f3 f5 01 - 00 00 00 00 00 00 00 00  ....P...........
+0018ef90  bc ef 18 00 7c ff 43 00 - 00 00 00 00 cc ef 18 00  ....|.C.........
+0018efa0  c8 4b 40 00 bc ef 18 00 - 00 00 00 00 dd 00 fb 01  .K@.............
+0018efb0  34 a5 45 00 e4 ef 18 00 - 00 00 00 00 ec ef 18 00  4.E.............
+0018efc0  14 02 44 00 00 00 00 00 - 00 00 00 00 00 f0 18 00  ..D.............
 
 disassembling:
 [...]
-0041fa38       mov     ebx, eax
-0041fa3a 112   mov     ecx, esi
-0041fa3c       mov     dl, 1
-0041fa3e       mov     eax, ebx
-0041fa40       call    dword ptr [eax]
-0041fa42     > call    -$1ad5b ($404cec)      ; System.@RaiseExcept
-0041fa47 113   pop     esi
-0041fa48       pop     ebx
-0041fa49       ret
+0043e4ef        call    -$36f9c ($407558)      ; System.LoadResString
+0043e4f4        mov     ecx, [ebp-4]
+0043e4f7        mov     dl, 1
+0043e4f9        mov     eax, [$41f6b4]
+0043e4fe        call    -$1eb07 ($41f9fc)      ; IdException.EIdException.Create
+0043e503      > call    -$3981c ($404cec)      ; System.@RaiseExcept
+0043e508 1930   xor     eax, eax
+0043e50a        pop     edx
+0043e50b        pop     ecx
+0043e50c        pop     ecx
+0043e50d        mov     fs:[eax], edx
+[...]

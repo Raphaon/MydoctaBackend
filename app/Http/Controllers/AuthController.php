@@ -20,14 +20,13 @@ class AuthController extends Controller
         $checkLog = false;
         if(!empty($user_name) and !empty($password))
         {
-            $checkLog = User::where('email', '=', $user_name)
-                        ->where('password', '=', $password)
+
+            $checkLog = User::where('email', $user_name)
+                        ->where('password', $password)
                         ->where('isActivate',"true")
                         ->first();
         }
-        return  response()->json([
-            'UserInfo' => $checkLog
-        ], 200);
+        return  response()->json($checkLog, 200);
     }
 
 
@@ -53,10 +52,13 @@ class AuthController extends Controller
         $user->email = $email;
         $user->phoneNumber= $phoneNumber;
         $user->password =sha1(md5($password));
+
         if($password == $cpassword)
         {
+
             if(!empty($fullname) and !empty($email) and !empty($password) and !empty($readTerm))
             {
+
                 if($user->save())
                 {
 
