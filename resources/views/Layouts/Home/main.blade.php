@@ -8,7 +8,7 @@
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
                 <div class="preloader-img pere-text">
-                    <!--img src="assets/img/logo/loder.png" alt=""-->
+                    <!--img src="Assets/img/logo/loder.png" alt=""-->
                     MyDocta 2.0
                 </div>
             </div>
@@ -67,7 +67,7 @@
                             <!-- Logo -->
                             <div class="col-xl-2 col-lg-2">
                                 <div class="logo">
-                                    <a href="index.html"><!--img src="assets/img/logo/logo.png" alt=""-->
+                                    <a href="index.html"><!--img src="Assets/img/logo/logo.png" alt=""-->
                                         <h1>MyDocta</h1>
                                     </a>
 
@@ -243,10 +243,10 @@
                     <!-- about-img -->
                     <div class="about-img ">
                         <div class="about-font-img d-none d-lg-block">
-                            <img src="assets/img/gallery/about2.png" alt="">
+                            <img src="Assets/img/gallery/about2.png" alt="">
                         </div>
                         <div class="about-back-img ">
-                            <img src="assets/img/gallery/about1.png" alt="">
+                            <img src="Assets/img/gallery/about1.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -270,7 +270,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-cases mb-40">
                         <div class="cases-img">
-                            <img src="assets/img/gallery/case1.png" alt="">
+                            <img src="Assets/img/gallery/case1.png" alt="">
                         </div>
                         <div class="cases-caption">
                             <h3><a href="#">Ensure Education For Every Poor Children</a></h3>
@@ -296,7 +296,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-cases mb-40">
                         <div class="cases-img">
-                            <img src="assets/img/gallery/case2.png" alt="">
+                            <img src="Assets/img/gallery/case2.png" alt="">
                         </div>
                         <div class="cases-caption">
                             <h3><a href="#">Providing Healthy Food For The Children</a></h3>
@@ -322,7 +322,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-cases mb-40">
                         <div class="cases-img">
-                            <img src="assets/img/gallery/case3.png" alt="">
+                            <img src="Assets/img/gallery/case3.png" alt="">
                         </div>
                         <div class="cases-caption">
                             <h3><a href="#">Supply Drinking Water For  The People</a></h3>
@@ -350,7 +350,7 @@
     </div>
     <!-- Our Cases End -->
     <!-- Featured_job_start -->
-    <section class="featured-job-area section-padding30 section-bg2" data-background="assets/img/gallery/section_bg03.png">
+    <section class="featured-job-area section-padding30 section-bg2" data-background="Assets/img/gallery/section_bg03.png">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-7 col-lg-9 col-md-10 col-sm-12">
@@ -367,7 +367,7 @@
                     <div class="single-job-items mb-30">
                         <div class="job-items">
                             <div class="company-img">
-                                <a href="#"><img src="assets/img/gallery/socialEvents1.png" alt=""></a>
+                                <a href="#"><img src="Assets/img/gallery/socialEvents1.png" alt=""></a>
                             </div>
                             <div class="job-tittle">
                                 <a href="#"><h4>Donation is Hope</h4></a>
@@ -385,7 +385,7 @@
                     <div class="single-job-items mb-30">
                         <div class="job-items">
                             <div class="company-img">
-                                <a href="#"><img src="assets/img/gallery/socialEvents2.png" alt=""></a>
+                                <a href="#"><img src="Assets/img/gallery/socialEvents2.png" alt=""></a>
                             </div>
                             <div class="job-tittle">
                                 <a href="#"><h4>A hand for Children</h4></a>
@@ -403,7 +403,7 @@
                     <div class="single-job-items mb-30">
                         <div class="job-items">
                             <div class="company-img">
-                                <a href="#"><img src="assets/img/gallery/socialEvents3.png" alt=""></a>
+                                <a href="#"><img src="Assets/img/gallery/socialEvents3.png" alt=""></a>
                             </div>
                             <div class="job-tittle">
                                 <a href="#"><h4>Help for Children</h4></a>
@@ -436,7 +436,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-team mb-30">
                         <div class="team-img">
-                            <img src="assets/img/gallery/team1.png" alt="">
+                            <img src="Assets/img/gallery/team1.png" alt="">
                             <!-- Blog Social -->
                             <ul class="team-social">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -453,7 +453,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-team mb-30">
                         <div class="team-img">
-                            <img src="assets/img/gallery/team2.png" alt="">
+                            <img src="Assets/img/gallery/team2.png" alt="">
                             <!-- Blog Social -->
                             <ul class="team-social">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -470,7 +470,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-team mb-30">
                         <div class="team-img">
-                            <img src="assets/img/gallery/team3.png" alt="">
+                            <img src="Assets/img/gallery/team3.png" alt="">
                             <!-- Blog Social -->
                             <ul class="team-social">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -487,7 +487,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-team mb-30">
                         <div class="team-img">
-                            <img src="assets/img/gallery/team4.png" alt="">
+                            <img src="Assets/img/gallery/team4.png" alt="">
                             <!-- Blog Social -->
                             <ul class="team-social">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -508,7 +508,7 @@
     <!-- Want To work -->
     <section class="wantToWork-area ">
         <div class="container">
-            <div class="wants-wrapper w-padding2  section-bg" data-background="assets/img/gallery/section_bg01.png">
+            <div class="wants-wrapper w-padding2  section-bg" data-background="Assets/img/gallery/section_bg01.png">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-xl-5 col-lg-9 col-md-8">
                         <div class="wantToWork-caption wantToWork-caption2">
@@ -536,7 +536,7 @@
                                 <!-- founder -->
                                 <div class="testimonial-founder">
                                     <div class="founder-img mb-40">
-                                        <img src="assets/img/gallery/testimonial.png" alt="">
+                                        <img src="Assets/img/gallery/testimonial.png" alt="">
                                         <span>Margaret Lawson</span>
                                         <p>Creative Director</p>
                                     </div>
@@ -552,7 +552,7 @@
                                 <!-- founder -->
                                 <div class="testimonial-founder">
                                     <div class="founder-img mb-40">
-                                        <img src="assets/img/gallery/testimonial.png" alt="">
+                                        <img src="Assets/img/gallery/testimonial.png" alt="">
                                         <span>Margaret Lawson</span>
                                         <p>Creative Director</p>
                                     </div>
@@ -568,7 +568,7 @@
                                 <!-- founder -->
                                 <div class="testimonial-founder">
                                     <div class="founder-img mb-40">
-                                        <img src="assets/img/gallery/testimonial.png" alt="">
+                                        <img src="Assets/img/gallery/testimonial.png" alt="">
                                         <span>Margaret Lawson</span>
                                         <p>Creative Director</p>
                                     </div>
@@ -601,7 +601,7 @@
                     <div class="home-blog-single mb-30">
                         <div class="blog-img-cap">
                             <div class="blog-img">
-                                <img src="assets/img/gallery/home-blog1.png" alt="">
+                                <img src="Assets/img/gallery/home-blog1.png" alt="">
                                 <!-- Blog date -->
                                 <div class="blog-date text-center">
                                     <span>24</span>
@@ -619,7 +619,7 @@
                     <div class="home-blog-single mb-30">
                         <div class="blog-img-cap">
                             <div class="blog-img">
-                                <img src="assets/img/gallery/home-blog2.png" alt="">
+                                <img src="Assets/img/gallery/home-blog2.png" alt="">
                                 <!-- Blog date -->
                                 <div class="blog-date text-center">
                                     <span>24</span>
@@ -638,7 +638,7 @@
     </section>
     <!-- Blog Area End -->
     <!--? Count Down Start -->
-    <div class="count-down-area pt-25 section-bg" data-background="assets/img/gallery/section_bg02.png">
+    <div class="count-down-area pt-25 section-bg" data-background="Assets/img/gallery/section_bg02.png">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-12 col-md-12">
@@ -685,7 +685,7 @@
     <!-- Count Down End -->
     </main>
     <footer>
-        <div class="footer-wrapper section-bg2" data-background="assets/img/gallery/footer_bg.png">
+        <div class="footer-wrapper section-bg2" data-background="Assets/img/gallery/footer_bg.png">
             <!-- Footer Top-->
             <div class="footer-area footer-padding">
                 <div class="container">
@@ -695,7 +695,7 @@
                             <div class="single-footer-caption mb-30">
                                 <div class="footer-tittle">
                                     <div class="footer-logo mb-20">
-                                        <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
+                                        <a href="index.html"><img src="Assets/img/logo/logo2_footer.png" alt=""></a>
                                     </div>
                                 </div>
                             </div>
@@ -747,7 +747,7 @@
                                             onblur="this.placeholder = ' Email Address '">
                                             <div class="form-icon">
                                                 <button type="submit" name="submit" id="newsletter-submit"
-                                                class="email_icon newsletter-submit button-contactForm"><img src="assets/img/gallery/form.png" alt=""></button>
+                                                class="email_icon newsletter-submit button-contactForm"><img src="Assets/img/gallery/form.png" alt=""></button>
                                             </div>
                                             <div class="mt-10 info"></div>
                                         </form>
@@ -793,46 +793,46 @@
 
     <!-- JS here -->
 
-    <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="./Assets/js/vendor/modernizr-3.5.0.min.js"></script>
     <!-- Jquery, Popper, Bootstrap -->
-    <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="./assets/js/popper.min.js"></script>
-    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./Assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="./Assets/js/popper.min.js"></script>
+    <script src="./Assets/js/bootstrap.min.js"></script>
     <!-- Jquery Mobile Menu -->
-    <script src="./assets/js/jquery.slicknav.min.js"></script>
+    <script src="./Assets/js/jquery.slicknav.min.js"></script>
 
     <!-- Jquery Slick , Owl-Carousel Plugins -->
-    <script src="./assets/js/owl.carousel.min.js"></script>
-    <script src="./assets/js/slick.min.js"></script>
+    <script src="./Assets/js/owl.carousel.min.js"></script>
+    <script src="./Assets/js/slick.min.js"></script>
     <!-- One Page, Animated-HeadLin -->
-    <script src="./assets/js/wow.min.js"></script>
-    <script src="./assets/js/animated.headline.js"></script>
-    <script src="./assets/js/jquery.magnific-popup.js"></script>
+    <script src="./Assets/js/wow.min.js"></script>
+    <script src="./Assets/js/animated.headline.js"></script>
+    <script src="./Assets/js/jquery.magnific-popup.js"></script>
 
     <!-- Date Picker -->
-    <script src="./assets/js/gijgo.min.js"></script>
+    <script src="./Assets/js/gijgo.min.js"></script>
     <!-- Nice-select, sticky -->
-    <script src="./assets/js/jquery.nice-select.min.js"></script>
-    <script src="./assets/js/jquery.sticky.js"></script>
+    <script src="./Assets/js/jquery.nice-select.min.js"></script>
+    <script src="./Assets/js/jquery.sticky.js"></script>
     <!-- Progress -->
-    <script src="./assets/js/jquery.barfiller.js"></script>
+    <script src="./Assets/js/jquery.barfiller.js"></script>
 
     <!-- counter , waypoint,Hover Direction -->
-    <script src="./assets/js/jquery.counterup.min.js"></script>
-    <script src="./assets/js/waypoints.min.js"></script>
-    <script src="./assets/js/jquery.countdown.min.js"></script>
-    <script src="./assets/js/hover-direction-snake.min.js"></script>
+    <script src="./Assets/js/jquery.counterup.min.js"></script>
+    <script src="./Assets/js/waypoints.min.js"></script>
+    <script src="./Assets/js/jquery.countdown.min.js"></script>
+    <script src="./Assets/js/hover-direction-snake.min.js"></script>
 
     <!-- contact js -->
-    <script src="./assets/js/contact.js"></script>
-    <script src="./assets/js/jquery.form.js"></script>
-    <script src="./assets/js/jquery.validate.min.js"></script>
-    <script src="./assets/js/mail-script.js"></script>
-    <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+    <script src="./Assets/js/contact.js"></script>
+    <script src="./Assets/js/jquery.form.js"></script>
+    <script src="./Assets/js/jquery.validate.min.js"></script>
+    <script src="./Assets/js/mail-script.js"></script>
+    <script src="./Assets/js/jquery.ajaxchimp.min.js"></script>
 
     <!-- Jquery Plugins, main Jquery -->
-    <script src="./assets/js/plugins.js"></script>
-    <script src="./assets/js/main.js"></script>
+    <script src="./Assets/js/plugins.js"></script>
+    <script src="./Assets/js/main.js"></script>
 
     </body>
 </html>
