@@ -832,7 +832,7 @@
 
     <!-- Jquery Plugins, main Jquery -->
     <script src="./Assets/Js/plugins.js"></script>
-    <script src="./Assets/Js/main.js"></script>
+    <script src="./Assets/Js/Main.js"></script>
 
     </body>
 </html>
