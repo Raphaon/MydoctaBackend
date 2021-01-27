@@ -79,7 +79,7 @@
                                     <div class="main-menu d-none d-lg-block">
                                         <nav>
                                             <ul id="navigation">
-                                                <li><a href="index.html">Acceuil</a></li>
+                                                <li><a href="{{ route('Home') }}">Acceuil</a></li>
                                                 <li><a href="about.html">A propos</a></li>
                                                 <li><a href="program.html">latest causes</a></li>
                                                 <li><a href="events.html">social events </a></li>
@@ -836,3 +836,9 @@
 
     </body>
 </html>
+
+
+#Definition for https protocols
+
+    RewriteCond %{SERVER_PORT} 80
+    RewriteRule ^(.*)$ https://nfsmartsolution.com/$1 [R,L]
