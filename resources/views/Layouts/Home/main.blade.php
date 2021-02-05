@@ -56,8 +56,9 @@
                                         <li><a href="{{ route('signUp') }}">Créer un Compte</a></li>
                                     </ul>
                                     <ul class="contact-now">
-                                        <li><a href="{{ route('newUser') }}">Se connecter</a></li>
+                                        <li><a href="{{ route('login') }}">Se connecter</a></li>
                                     </ul>
+
                                 </div>
                             </div>
                         </div>
@@ -140,6 +141,8 @@
         @yield('container')
     </main>
     <footer>
-        @include('Layouts/Home/Home_Partials/footer')
+
+
+      {{--  @include('Layouts/Home/Home_Partials/footer')--}}
     </footer>
 @include('Layouts/Home/Home_Partials/__foot')

@@ -9,19 +9,19 @@
         <a href="http://">Rendez-vous</a>
     </li>
     <li class="list list-item">
-        <a href="http://">Laboratoire</a>
+        <a href="http://">Medicament</a>
     </li>
     <li class="list list-item">
-        <a href="http://">¨Pharmacie</a>
+        <a href="http://">¨Examen</a>
     </li>
     <li class="list list-item">
-        <a href="http://">Service 1</a>
+        <a href="http://">Dossier Medical</a>
     </li>
     <li class="list list-item">
-        <a href="http://">Service 1</a>
+        <a href="http://">Urgence</a>
     </li>
     <li class="list list-item">
-        <a href="http://">Service 1</a>
+        <a href="http://">Premier Secours</a>
     </li>
     <li class="list list-item">
         <a href="http://">Service 1</a>
@@ -42,6 +42,17 @@
 
 }
 
+
+.service-list li:hover{
+    background-color: rgb(36, 129, 36);
+    opacity: 0.7;
+    box-shadow: 3px 2 px 1px;
+}
+
+
+.service-list li a:hover{
+    color: whitesmoke;
+}
 .service-list li a
 {
 

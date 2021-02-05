@@ -91,7 +91,7 @@ Route::get('/forgoten', [
 
 Route::get('/auth', [
     'as'   => 'login',
-    'uses' => 'AuthController@passwordRecovery'
+    'uses' => 'AuthController@login'
 ]);
 
 
