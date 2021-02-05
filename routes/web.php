@@ -10,13 +10,17 @@ Route::get('/', [
     'uses' => 'HomeController@index'
 ]);
 
+
+
+
+
 Route::get('/AppList', [
     'as'   => 'ListApi',
     'uses' => 'HomeController@getAppList'
 ]);
 
 
-Route::get('users',[
+Route::get('users', [
     'as'   => 'Users',
     'uses' => 'AuthController@getUser'
 ]);
@@ -85,8 +89,13 @@ Route::get('/forgoten', [
 
 
 
+Route::get('/auth', [
+    'as'   => 'login',
+    'uses' => 'AuthController@passwordRecovery'
+]);
+
+
 Route::get('/activation/{id}', [
     'as'   => 'activationMail',
     'uses' => 'AuthController@activationMail'
 ]);
-

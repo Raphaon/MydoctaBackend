@@ -28,7 +28,7 @@
                                 <div class="header-info-left d-flex">
                                     <ul>
                                         <li>Tel : +237 695 633 802</li>
-                                        <li>Email: raphaondobo@gmail.com</li>
+                                        <li>Email : raphaondobo@gmail.com</li>
                                     </ul>
                                     <div class="header-social">
                                         <ul>
@@ -54,6 +54,9 @@
                                     </div>
                                     <ul class="contact-now">
                                         <li><a href="{{ route('signUp') }}">Créer un Compte</a></li>
+                                    </ul>
+                                    <ul class="contact-now">
+                                        <li><a href="{{ route('newUser') }}">Se connecter</a></li>
                                     </ul>
                                 </div>
                             </div>
