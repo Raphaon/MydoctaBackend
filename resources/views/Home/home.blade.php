@@ -3,16 +3,16 @@
 
 <ul class="list-item service-list">
     <li class="list list-item">
-        <a href="http://">Service 1</a>
+        <a href="{{ route('signUp') }}">Consultation</a>
     </li>
     <li class="list list-item">
-        <a href="http://">Service 1</a>
+        <a href="http://">Rendez-vous</a>
     </li>
     <li class="list list-item">
-        <a href="http://">Service 1</a>
+        <a href="http://">Laboratoire</a>
     </li>
     <li class="list list-item">
-        <a href="http://">Service 1</a>
+        <a href="http://">¨Pharmacie</a>
     </li>
     <li class="list list-item">
         <a href="http://">Service 1</a>
