@@ -13,8 +13,8 @@
 
         <div class="login-body">
             <div class="form form-row">
-                <label for="">Email : </label>
-            <input type="email" name="" id="" class="form form-control" placeholder="Please enter you mail adresse ex :  example@somthing.com">
+                <label class="form form-control" for="">Email : </label>
+                <input type="email" name="" id="" class="form form-control" placeholder="Please enter you mail adresse ex :  example@somthing.com">
             </div>
 
             <label for="">Password : </label>

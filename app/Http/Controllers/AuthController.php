@@ -12,6 +12,8 @@ class AuthController extends Controller
         return view('User/login');
     }
 
+    
+
     public function checkLog()
     {
         $user_name = request("username");
