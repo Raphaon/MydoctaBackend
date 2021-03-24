@@ -27,4 +27,9 @@ class UserController extends Controller
     {
         return view('Auth.PasswordRecovery');
     }
+
+    public function lockscreen()
+    {
+        return view('User.lockscreen');
+    }
 }

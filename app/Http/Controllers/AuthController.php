@@ -19,7 +19,10 @@ class AuthController extends Controller
         return view('Auth.ForgotPassword');
     }
 
-
+    public function lockscreen()
+    {
+        return view('User.lockscreen');
+    }
     public function checkLog()
     {
         $user_name = request("username");

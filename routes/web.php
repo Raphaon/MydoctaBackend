@@ -133,6 +133,12 @@ Route::get('/passwordRecovery/{token}', [
 
 
 
+Route::get('/lockscreen', [
+    'as'   => 'lockScreen',
+    'uses' => 'UserController@lockscreen'
+]);
+
+
 
 Route::get('/auth', [
     'as'   => 'login',
