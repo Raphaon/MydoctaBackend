@@ -5,14 +5,20 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\User;
 use DB;
+use Facade\Ignition\Exceptions\ViewException;
+
 class AuthController extends Controller
 {
     public function Login(Request $request)
     {
-        return view('User/login');
+        return view('Auth/login');
     }
 
-    
+    public function forgotPassword()
+    {
+        return view('Auth.ForgotPassword');
+    }
+
 
     public function checkLog()
     {

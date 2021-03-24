@@ -12,7 +12,7 @@
         <a href="http://">Medicament</a>
     </li>
     <li class="list list-item">
-        <a href="http://">¨Examen</a>
+        <a href="http://">Examen</a>
     </li>
     <li class="list list-item">
         <a href="http://">Dossier Medical</a>

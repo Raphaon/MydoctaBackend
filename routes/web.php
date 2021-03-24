@@ -3,6 +3,17 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
+/**
+ * Gestion des routes pour l'authetification
+ */
+
+Route::get('/login', [
+    'as'   => 'login',
+    'uses' => 'AuthController@login'
+]);
+
+
+
 
 
 Route::get('/', [
@@ -10,6 +21,33 @@ Route::get('/', [
     'uses' => 'HomeController@index'
 ]);
 
+
+Route::get('/appointmentMenu', [
+    'as'   => 'Home',
+    'uses' => 'HomeController@index'
+]);
+
+
+Route::get('/appointmentTracking', [
+    'as'   => 'Home',
+    'uses' => 'HomeController@index'
+]);
+
+Route::get('/newAppointment', [
+    'as'   => 'Home',
+    'uses' => 'HomeController@index'
+]);
+
+Route::get('/services', [
+    'as'   => 'Home',
+    'uses' => 'RDVController@getServices'
+]);
+
+
+Route::get('appointmentProgramme', [
+    'as'   => 'Home',
+    'uses' => 'HomeController@index'
+]);
 
 
 
@@ -83,8 +121,8 @@ Route::post('/authCheck', [
 
 
 Route::get('/forgoten', [
-    'as'   => 'passwordRecovery',
-    'uses' => 'AuthController@passwordRecovery'
+    'as'   => 'passwordForgot',
+    'uses' => 'AuthController@forgotPassword'
 ]);
 
 
