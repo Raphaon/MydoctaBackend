@@ -1,14 +1,11 @@
 
 @extends('Layouts.App.Auth.Main')
 
-@section('pageTitle', config('app.name').' Log In')
+@section('pageTitle', config('app.name').' | password Forgot')
 
 @section('content')
 <body class="hold-transition login-page">
-    <div class="login-box">
-      <div class="login-logo">
-        <a href="../../index2.html"><b>Admin</b>LTE</a>
-      </div>
+        @section('pageContentTitle'," Password forgotten")
       <!-- /.login-logo -->
       <div class="card">
         <div class="card-body login-card-body">
@@ -32,10 +29,10 @@
           </form>
 
           <p class="mt-3 mb-1">
-            <a href="login.html">Login</a>
+            <a href="{{ route('login') }}">Login</a>
           </p>
           <p class="mb-0">
-            <a href="register.html" class="text-center">Register a new membership</a>
+            <a href="{{ route('signUp') }}" class="text-center">Register a new membership</a>
           </p>
         </div>
         <!-- /.login-card-body -->

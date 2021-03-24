@@ -40,7 +40,7 @@ class AuthController extends Controller
 
     public function signUp()
     {
-        return view('./User/SignUp');
+        return view('Auth.Register');
 
     }
 

@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 
 class UserController extends Controller
 {
+
+
     public function create()
     {
         return view('User.signUp');
@@ -18,5 +20,11 @@ class UserController extends Controller
     }
     public function edit()
     {
+    }
+
+
+    public function recoveryPassword()
+    {
+        return view('Auth.PasswordRecovery');
     }
 }

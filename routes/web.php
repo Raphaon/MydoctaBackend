@@ -126,6 +126,13 @@ Route::get('/forgoten', [
 ]);
 
 
+Route::get('/passwordRecovery/{token}', [
+    'as'   => 'passwordRecovery',
+    'uses' => 'UserController@recoveryPassword'
+]);
+
+
+
 
 Route::get('/auth', [
     'as'   => 'login',

@@ -1,14 +1,13 @@
-
 @extends('Layouts.App.Auth.Main')
 
-@section('pageTitle', config('app.name').' Log In')
+@section('pageTitle', config('app.name').' | Log In')
 
 @section('content')
 <body class="hold-transition login-page">
-    <div class="login-box">
-      <div class="login-logo">
-        <a href="../../index2.html"><b>MyDocta</b> 2.0 Log In</a>
-      </div>
+
+    @section('pageContentTitle'," Login")
+
+
       <!-- /.login-logo -->
       <div class="card">
         <div class="card-body login-card-body">
